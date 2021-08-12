@@ -1,13 +1,17 @@
 export default [
   {
+    // Flight's data is not the same as it is mentioned in the task description.
     id: '1',
     destination: 'Rome',
     destinationIata: 'FCO',
-    time: '1:30pm - 4:15pm',
+    time: '1:30pm - 4:15pm', // landing and departure times should be handled differently
     location: {
       latitude: 41.9,
       longitude: 12.483333,
     },
+    // prices before and after discounts are missing.
+    // origin and originIata are missing.
+    
   },
   {
     id: '2',

@@ -17,7 +17,7 @@ const FlightData = ({
   destinationIata,
   origin,
   originIata,
-  time,
+  time,           // what time is it? landing or departure? they should have handled differently
 }: FlightDataProps) => (
   <View style={styles.boxesRow}>
     <View style={styles.leftOuterBox}>

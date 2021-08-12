@@ -17,7 +17,7 @@ const FlightInfo = ({
   destinationIata,
   origin,
   originIata,
-  time,
+  time,           // what time is it? landing or departure? they should have handled differently
 }: FlightInfoProps) => {
   return (
     <View>

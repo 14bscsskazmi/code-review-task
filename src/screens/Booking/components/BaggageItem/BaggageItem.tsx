@@ -22,7 +22,8 @@ export default class BaggageClassComponent extends React.Component<BaggageItemPr
           <View style={styles.checkboxWrapper}>
             <Checkbox
               status={value ? 'checked' : 'unchecked'}
-              onPress={setValue}
+              onPress={setValue} // I am assuming that setValue fucntion toggles the value every time I press it. so it should be working properly
+              // However I couldn't find its definition.
             />
           </View>
           <View style={styles.iconWrapper}>

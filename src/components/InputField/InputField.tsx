@@ -13,10 +13,10 @@ interface Props extends TextInputProps {
 const InputField = ({
   error,
   touched,
-  onChangeText,
-  onBlur,
+  onChangeText,   // This property does not exists on Type 'Props'
+  onBlur,         // This property does not exists on Type 'Props'
   value,
-  placeholder,
+  placeholder,    // This property does not exists on Type 'Props'
   label,
   mode,
 }: Props) => (
